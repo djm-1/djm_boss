@@ -32,11 +32,19 @@ int main()
    #endif
 
    ///test cases(optional)
-   ll t;
-   cin>>t;
-   while(t--)
-   {
-       ///code starts here
+   ///code starts here.....BE CAREFUL!!!
 
-   }
+
+
+
+
+
+
+
+
+   ///runtime estimation to avoid TLE
+   #ifndef ONLINE_JUDGE
+        cout << "\nTime Elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " sec\n";
+   #endif
 }
+
